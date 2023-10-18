@@ -12,7 +12,7 @@
  * @id: takes note of the placeholder
  * @f: holds the function corresponding to the id placeholder
 */
-typedef struct format
+struct format
 {
     char *id;
     int (*f)();
