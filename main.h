@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< Updated upstream
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -39,6 +39,4 @@ int print_pointer(va_list val);
 int print_revs(va_list val);
 int print_rot13(va_list val);
 
-=======
->>>>>>> Stashed changes
 #endif
