@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_37 - prints a percentage
+ * printf_37 - prints a percentage
  * Return: 1
 */
-int print_37(void)
+int printf_37(void)
 {
 _putchar(37);
 return (1);

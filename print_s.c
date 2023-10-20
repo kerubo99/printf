@@ -10,7 +10,7 @@ char *str;
 int i;
 int length;
 
-str = var_argv(val, char *);
+str = va_arg(val, char*);
 if (str == NULL)
 {
 str = "(null)";

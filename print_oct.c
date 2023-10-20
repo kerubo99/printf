@@ -26,7 +26,7 @@ tem = tem / 8;
 }
 for (i = counter - 1; i >= 0; i--)
 {
-_putchar(arr[i] + '0');
+_putchar(array[i] + '0');
 }
 free(array);
 

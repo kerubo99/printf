@@ -7,7 +7,7 @@
 int print_HEX(va_list val)
 {
 int i, counter = 0;
-unsigned int num = var_arg(val, unsigned int);
+unsigned int num = va_arg(val, unsigned int);
 int *array;
 unsigned int tem = num;
 
