@@ -7,19 +7,11 @@
 int _printf(const char *format, ...)
 {
 match m[] = {
-{"%c", printf_char},
-{"%s", printf_string},
-{"%%", print_37},
+{"%c", printf_char}, {"%s", printf_string}, {"%%", print_37},
 {"%d", print_dec},
-{"%i", print_int},
-{"%r", print_revs},
-{"%R", print_rot13},
-{"%b", print_bin},
-{"%u", print_unsigned},
-{"%o", print_oct},
-{"%X", print_HEX},
-{"%S", print_exc_string},
-{"%p", print_pointer}
+{"%i", print_int}, {"%r", print_revs}, {"%R", print_rot13}, {"%b", print_bin},
+{"%u", print_unsigned}, {"%o", print_oct},
+{"%X", print_HEX}, {"%s", print_exc_string}, {"%p", print_pointer}
 };
 
 va_list args;
